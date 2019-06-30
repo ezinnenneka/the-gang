@@ -11,6 +11,11 @@ h1{
 	font-size: 50px;
 }
 
+h2{
+	font-weight: 800;
+	font-size: 50px;
+}
+
 h3{
 	font-weight: bold;
 	font-size: 30px;
@@ -55,7 +60,7 @@ h4{
 	width: 363px;
 	height: 344px;
 	background-size: 100%;
-	position: absolute; top: 15%; right: 10%;
+	position: absolute; top: 10%; right: 10%;
 	transform: rotate(15deg);
 }
 
@@ -93,4 +98,56 @@ button.cta.alt{
 	background-color: #FFD400;
 	color: #111111;
 	box-shadow: 0 0 0 10px rgba(0, 0, 0, .15);
+}
+
+nav{
+	position: sticky;
+	top: 0;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+}
+
+nav .logo{
+	display: block;
+	width: 300px;
+	height: 40px;
+	position: absolute; top: 50%;
+	margin-top: -20px;
+	margin-left: 30px;
+	background-size: 100%;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+nav ul li{
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #111111;
+	text-decoration: none;
+	padding: 35px 10px;
+	line-height: 30px;
+}
+
+.more-info{
+	text-align: center;
+}
+
+p{
+	font-weight: bold;
+	font-size: 30px;
 }
